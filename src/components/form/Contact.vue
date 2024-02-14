@@ -43,7 +43,7 @@
 
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
-        >{{ t("topic") }} *</label
+        >{{ t("Téma") }} *</label
       >
     </div>
     <div class="input-group">
@@ -56,7 +56,7 @@
       />
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
-        >{{ t("name") }} *</label
+        >{{ t("Név") }} *</label
       >
     </div>
 
@@ -83,7 +83,7 @@
       />
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
-        >{{ t("phone") }}</label
+        >{{ t("Telefon") }}</label
       >
     </div>
     <div class="input-group">
@@ -100,7 +100,7 @@
       <label
         class="peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-primary"
       >
-        {{ t("message") }} *</label
+        {{ t("Üzenet") }} *</label
       >
     </div>
     <div
@@ -112,7 +112,7 @@
         :disabled="!canSubmit"
       >
         <span>
-          {{ t("submit") }}
+          {{ t("Küldés") }}
         </span>
         <svg
           class="-mr-1 h-5 w-5"
